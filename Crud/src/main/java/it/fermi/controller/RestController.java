@@ -12,6 +12,7 @@ public class RestController {
         return param1 + " " + param2;  // Echoes la variabile del path come risposta
     }
 
+    //gestione della richiesta di una somma
     @GetMapping("/richiestaPostConParametriNumerici/{param1}/{param2}")
     public String richiestaPostConParametri(@PathVariable int param1, @PathVariable int param2) {
         int sum = param1 + param2;
