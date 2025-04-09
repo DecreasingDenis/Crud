@@ -21,8 +21,6 @@ dependencies {
 
     // MySQL Connector
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.33'
-    // Spring Data JPA (for database operations between mySQL and Spring)
-    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 }
 
 test {
